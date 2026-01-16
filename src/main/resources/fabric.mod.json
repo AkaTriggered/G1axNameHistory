@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": "g1axnamehistory",
+  "version": "1.0.0",
+  "name": "G1axNameHistory",
+  "description": "Display Minecraft players' name history and UUIDs",
+  "authors": ["G1ax"],
+  "contact": {},
+  "license": "MIT",
+  "icon": "assets/g1axnamehistory/icon.png",
+  "environment": "client",
+  "entrypoints": {
+    "client": ["com.g1ax.namehistory.G1axNameHistory"]
+  },
+  "depends": {
+    "fabricloader": ">=0.15.0",
+    "minecraft": ">=1.21",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}
